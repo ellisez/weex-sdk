@@ -6,9 +6,9 @@
  * to you under the Apache License, Version 2.0 (the
  * "License"); you may not use this file except in compliance
  * with the License.  You may obtain a copy of the License at
- * 
+ *
  *   http://www.apache.org/licenses/LICENSE-2.0
- * 
+ *
  * Unless required by applicable law or agreed to in writing,
  * software distributed under the License is distributed on an
  * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
@@ -20,8 +20,8 @@ package org.apache.weex.ui.component;
 
 import android.content.Context;
 import android.content.Intent;
-import android.support.annotation.Nullable;
-import android.support.v4.view.ViewCompat;
+import androidx.annotation.Nullable;
+import androidx.core.view.ViewCompat;
 import android.util.Pair;
 import android.view.Menu;
 import android.view.View;
@@ -606,7 +606,7 @@ public abstract class WXVContainer<T extends ViewGroup> extends WXComponent<T> {
         this.setMarginsSupportRTL(layoutParams, -left, -top, -right, -bottom);
 
         mBoxShadowHost.setLayoutParams(layoutParams);
-        
+
         hostView.removeView(mBoxShadowHost);
         hostView.addView(mBoxShadowHost);
         return mBoxShadowHost;
@@ -624,6 +624,6 @@ public abstract class WXVContainer<T extends ViewGroup> extends WXComponent<T> {
   }
 
   public void appendTreeCreateFinish() {
-    
+
   }
 }

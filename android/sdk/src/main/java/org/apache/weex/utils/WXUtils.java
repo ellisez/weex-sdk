@@ -6,9 +6,9 @@
  * to you under the Apache License, Version 2.0 (the
  * "License"); you may not use this file except in compliance
  * with the License.  You may obtain a copy of the License at
- * 
+ *
  *   http://www.apache.org/licenses/LICENSE-2.0
- * 
+ *
  * Unless required by applicable law or agreed to in writing,
  * software distributed under the License is distributed on an
  * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
@@ -23,8 +23,8 @@ import android.content.Context;
 import android.content.res.Configuration;
 import android.os.Looper;
 import android.os.SystemClock;
-import android.support.annotation.Nullable;
-import android.support.v4.util.LruCache;
+import androidx.annotation.Nullable;
+import androidx.collection.LruCache;
 import android.text.TextUtils;
 import org.apache.weex.WXEnvironment;
 import org.apache.weex.WXSDKManager;
@@ -551,7 +551,7 @@ public class WXUtils {
   }
 
 
-  
+
   /**
    * get number
    * */

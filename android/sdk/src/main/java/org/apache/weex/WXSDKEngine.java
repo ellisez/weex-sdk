@@ -22,7 +22,7 @@ import android.app.Application;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.Resources;
-import android.support.v4.content.LocalBroadcastManager;
+import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 import android.text.TextUtils;
 import org.apache.weex.adapter.IDrawableLoader;
 import org.apache.weex.adapter.IWXHttpAdapter;

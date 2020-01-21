@@ -18,7 +18,7 @@
  */
 package org.apache.weex.utils;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import com.alibaba.fastjson.JSON;
 import org.apache.weex.bridge.WXJSObject;

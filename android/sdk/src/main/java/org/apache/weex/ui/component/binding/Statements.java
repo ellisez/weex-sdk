@@ -19,7 +19,7 @@
 package org.apache.weex.ui.component.binding;
 
 import android.os.Looper;
-import android.support.v4.util.ArrayMap;
+import androidx.collection.ArrayMap;
 import android.text.TextUtils;
 
 import com.alibaba.fastjson.JSONArray;

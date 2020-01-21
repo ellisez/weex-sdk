@@ -19,7 +19,7 @@
 package org.apache.weex.ui.component.list.template;
 
 
-import android.support.v4.util.ArrayMap;
+import androidx.collection.ArrayMap;
 import android.text.TextUtils;
 
 import com.alibaba.fastjson.JSONArray;
@@ -267,5 +267,5 @@ public class CellDataManager {
         }
         return virtualComponentId.split(VIRTUAL_COMPONENT_SEPRATOR)[0];
     }
-    
+
 }

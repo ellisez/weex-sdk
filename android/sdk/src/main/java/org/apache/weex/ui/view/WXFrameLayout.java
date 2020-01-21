@@ -20,7 +20,7 @@ package org.apache.weex.ui.view;
 
 import android.content.Context;
 import android.graphics.Canvas;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.view.MotionEvent;
 import android.view.View;
 import org.apache.weex.WXSDKInstance;

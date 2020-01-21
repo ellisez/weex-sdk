@@ -19,9 +19,9 @@
 package org.apache.weex.ui.animation;
 
 import android.animation.PropertyValuesHolder;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.v4.util.ArrayMap;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.collection.ArrayMap;
 import android.text.TextUtils;
 import android.util.Pair;
 import android.util.Property;

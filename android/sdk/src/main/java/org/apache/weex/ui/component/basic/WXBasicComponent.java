@@ -18,7 +18,7 @@
  */
 package org.apache.weex.ui.component.basic;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.view.View;
 import org.apache.weex.dom.CSSShorthand;
 import org.apache.weex.dom.WXAttr;

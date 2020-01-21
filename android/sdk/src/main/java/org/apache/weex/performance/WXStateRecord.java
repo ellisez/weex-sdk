@@ -26,7 +26,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentLinkedQueue;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import org.apache.weex.WXSDKManager;
 import org.apache.weex.adapter.IWXConfigAdapter;
 import org.apache.weex.bridge.WXBridgeManager;

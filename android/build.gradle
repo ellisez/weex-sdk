@@ -69,13 +69,14 @@ subprojects {
 }
 ext {
     compileSdkVersion=28
-    minSdkVersion=14
-    targetSdkVersion=28
-    supportLibVersion="26.0.2"
+    minSdkVersion=16
+    targetSdkVersion=26
+    //supportLibVersion="28.0.3"
+    appcompatVersion="1.0.2"
     fastjsonLibVersion="1.1.70.android"
     //Default value for disableCov is false
     disableCov = project.hasProperty("disableCov") && disableCov.equals("true")
-    useApachePackageName = project.hasProperty('apachePackageName') ? project.property('apachePackageName').toBoolean() : false
+    useApachePackageName = project.hasProperty('apachePackageName') ? project.property('apachePackageName').toBoolean() : true
     implementFromWeex = true
 }
 

@@ -18,7 +18,7 @@
  */
 package org.apache.weex;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import org.apache.weex.adapter.ClassLoaderAdapter;
 import org.apache.weex.adapter.IDrawableLoader;
 import org.apache.weex.adapter.IWXHttpAdapter;

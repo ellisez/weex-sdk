@@ -21,7 +21,7 @@ package org.apache.weex.ui.view;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.drawable.Drawable;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.widget.FrameLayout;
 import org.apache.weex.ui.flat.widget.Widget;
 import org.apache.weex.utils.WXLogUtils;

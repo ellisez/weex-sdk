@@ -23,7 +23,7 @@ import static org.apache.weex.utils.WXViewUtils.getRealPxByWidth;
 import android.content.Context;
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.text.SpannableStringBuilder;
 import org.apache.weex.WXSDKEngine;
 import org.apache.weex.WXSDKInstance;

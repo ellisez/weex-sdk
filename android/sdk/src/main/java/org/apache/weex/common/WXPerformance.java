@@ -18,7 +18,7 @@
  */
 package org.apache.weex.common;
 
-import android.support.annotation.RestrictTo;
+import androidx.annotation.RestrictTo;
 
 import org.apache.weex.WXEnvironment;
 import org.apache.weex.WXSDKInstance;

@@ -21,7 +21,7 @@ package org.apache.weex.bridge;
 import static org.apache.weex.http.WXHttpUtil.KEY_USER_AGENT;
 
 import android.net.Uri;
-import android.support.annotation.Keep;
+import androidx.annotation.Keep;
 import android.text.TextUtils;
 import org.apache.weex.WXEnvironment;
 import org.apache.weex.WXHttpListener;
