@@ -530,7 +530,7 @@ public class WXInstanceApm {
         if (null == apmInstance) {
             return;
         }
-        Double preVal = recordStatsMap.containsKey(name) ? recordStatsMap.get(name) : 0;
+        Double preVal = recordStatsMap.containsKey(name) ? recordStatsMap.get(name) : 0d;
         //fix by use ConcurrentHashMap,but not sure,so report if error still happen
         if (null == preVal){
             WXExceptionUtils.commitCriticalExceptionRT(
@@ -551,7 +551,7 @@ public class WXInstanceApm {
         if (null == apmInstance) {
             return;
         }
-        Double maxValue = recordStatsMap.containsKey(name) ? recordStatsMap.get(name) : 0;
+        Double maxValue = recordStatsMap.containsKey(name) ? recordStatsMap.get(name) : 0d;
         //fix by use ConcurrentHashMap,but not sure,so report if error still happen
         if (null == maxValue){
             WXExceptionUtils.commitCriticalExceptionRT(
